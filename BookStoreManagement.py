@@ -29,7 +29,7 @@ class BookStore:
 
 
 if __name__ == '__main__':
-    ProgramingBookStore = BookStore(["Python", "C++", "Java", "C", "CLRS", "R.D.Sharma", "OOPS IN PYTHON", "OOPS IN C++", "OOPS IN JAVA"], "Mainlibrary")
+    ProgramingBookStore = BookStore(["Python", "C++", "Java", "C", "CLRS", "R.D.Sharma", "OOPS IN PYTHON", "OOPS IN C++", "OOPS IN JAVA"], "SuperBookStore")
     while True:
         print(f'Welcome to {ProgramingBookStore.name} store. Enter your choice to continue')
         print(f'1 to Display book')
